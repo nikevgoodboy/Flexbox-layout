@@ -10,7 +10,6 @@ header{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    gap: 10px;
 }
 .card{
     width: 50%;
@@ -18,12 +17,15 @@ header{
     background-color: goldenrod;
     text-align: center;
     line-height: 450px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .card h3{
     text-align: center;
 }
 footer{
     background-color: orangered;
+    height: 40px;
     width: 100%;
     text-align: center;
 }
